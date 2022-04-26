@@ -85,6 +85,9 @@ body {
     gap: 7px;
   }
   
+  #listOfName li p{
+    display: inline;
+  }
   .nombre:nth-child(odd) {
     background-color: gray;
   }
