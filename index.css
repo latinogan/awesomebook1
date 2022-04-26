@@ -1,0 +1,169 @@
+/* style */
+body {
+  background-color: white;
+  font-size: 100%;
+}
+
+main {
+  min-height: 60vh;
+}
+
+.topnav {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  height: 50px;
+}
+
+.topnav h4 {
+  padding: 15px 0 0 40px;
+  margin: 0;
+}
+
+.books ul {
+  border: 3px solid;
+  width: 30%;
+  min-height: 200px;
+  list-style: none;
+  padding: 0;
+}
+
+#Links ul {
+  display: flex;
+  list-style: none;
+  margin-right: 60px;
+  font-weight: bold;
+}
+
+.date {
+  float: right;
+  margin-right: 40px;
+}
+
+#Links a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+#Links li {
+  margin-left: 10px;
+}
+
+.aweosme {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.awesome h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.awesome h2 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.books {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+#listOfName li {
+  display: flex;
+  justify-content: space-between;
+  gap: 7px;
+}
+
+#listOfName li p {
+  display: inline;
+}
+
+.nombre:nth-child(odd) {
+  background-color: gray;
+}
+
+.inputext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.library {
+  position: absolute;
+  opacity: 0;
+  transform: scale(0.01);
+}
+
+.library.active {
+  position: static;
+  opacity: 1;
+  z-index: 10;
+  transform: scale(1);
+}
+
+.add_book h3 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.add_book {
+  position: absolute;
+  opacity: 0;
+  transform: scale(0.01);
+}
+
+.add_book.active {
+  position: static;
+  opacity: 1;
+  z-index: 10;
+  transform: scale(1);
+}
+
+.contact1 {
+  position: absolute;
+  opacity: 0;
+  transform: scale(1);
+}
+
+.contact1.active {
+  position: static;
+  opacity: 1;
+  z-index: 10;
+  transform: scale(1);
+}
+
+.content {
+  text-align: center;
+}
+
+.listado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  height: 5vh;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
