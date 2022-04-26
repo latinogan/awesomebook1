@@ -10,7 +10,6 @@ time();
 
 const btnClass = document.querySelector('#Button');
 
-
 btnClass.addEventListener('click', () => {
   const booklist = new BookList(givenName.value, givenAuthor.value);
   BookList.addBook(booklist);
@@ -33,7 +32,7 @@ links.addEventListener('click', (element) => {
     list.classList.remove('active');
     contact.classList.remove('active');
     add.classList.add('active');
-} else if (link.classList.contains('contact')) {
+  } else if (link.classList.contains('contact')) {
     list.classList.remove('active');
     add.classList.remove('active');
     contact.classList.add('active');
