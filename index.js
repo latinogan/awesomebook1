@@ -12,6 +12,8 @@ const btnClass = document.querySelector('#Button');
 
 btnClass.addEventListener('click', () => {
   const booklist = new BookList(givenName.value, givenAuthor.value);
+  givenName.value = '';
+  givenAuthor.value = '';
   BookList.addBook(booklist);
 });
 
